@@ -47,14 +47,3 @@ jobs:
       run: |
         docker push klerith/docker-graphql:$NEW_VERSION
         docker push klerith/docker-graphql:latest
-      
-    
-    
-    
-    
-    
-    
-    
-    
-#     - name: Build the Docker image
-#       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
