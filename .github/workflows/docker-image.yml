@@ -47,3 +47,4 @@ jobs:
       run: |
         docker push klerith/docker-graphql:$NEW_VERSION
         docker push klerith/docker-graphql:latest
+  
